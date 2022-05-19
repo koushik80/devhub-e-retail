@@ -5,19 +5,48 @@ import '../App.css';
 
 const Container = styled.div`
      height: 60px;
-     background-color: black;
-`
+     background-color: white;
+`;
 const Wrapper = styled.div`
      padding: 10px 20px;
-`
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+`;
+const Left = styled.div`
+  flex: 1;
+  display: flex;
+  align-items: center;
+`;
+const Language = styled.span`
+  font-size: 14px;
+  cursor: pointer;
+`;
+const Center = styled.div`
+  flex: 1;
+  text-align: center;
+`;
+const Right = styled.div`
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+`;
 
 const Navbar = () => {
   return (
       <Container>
-          <Wrapper>navbar</Wrapper>
+          <Wrapper>
+            <Left>
+             <Language>EN</Language>
+            </Left>
+            <Center>Center
+            </Center>
+            <Right>Right
+            </Right>
+          </Wrapper>
            <img src={logo} className="App-logo" alt="logo" />
       </Container>
-      
   )
 }
 
