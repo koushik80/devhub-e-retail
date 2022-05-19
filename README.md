@@ -120,5 +120,5 @@
 <li><a href=""></a></li>
 </ul>
 
-<h3 align="left">License:</h3>
-<p>MIT</p>
+<h3 align="left">LICENSE:</h3>
+<p>[MIT License](LICENSE)</p>
