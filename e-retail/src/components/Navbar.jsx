@@ -35,6 +35,11 @@ const SearchContainer = styled.div`
   padding: 5px;
 `;
 
+const Input = styled.input`
+  border: none;
+  
+`;
+
 const Center = styled.div`
   flex: 1;
   text-align: center;
@@ -54,7 +59,7 @@ const Navbar = () => {
             <Left>
              <Language>EN</Language>
              <SearchContainer>
-               input
+               <Input placeholder="Search" />
                <Search style={{ color: "gray", fontSize: 16 }} />
              </SearchContainer>
             </Left>
