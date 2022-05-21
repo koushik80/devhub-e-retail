@@ -38,7 +38,6 @@ const SearchContainer = styled.div`
 
 const Input = styled.input`
   border: none;
-  
 `;
 
 const Center = styled.div`
@@ -48,7 +47,6 @@ const Center = styled.div`
 
 const Logo = styled.h1`
   font-weight: bold;
- 
 `;
 
 const Right = styled.div`
@@ -62,7 +60,6 @@ const MenuItem = styled.div`
   font-size: 14px;
   cursor: pointer;
   margin-left: 25px;
-  
 `;
 
 const Navbar = () => {
