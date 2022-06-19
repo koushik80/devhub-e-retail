@@ -2,13 +2,13 @@ import styled from 'styled-components';
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 
 const Container = styled.div`
-     width: "100%"
+     width: 100%;
      height: 100vh;
      display: flex;
      position: relative;
      overflow: hidden;
-    
-`
+     background-color: coral;
+`;
 
 const Arrow = styled.div`
      width: 50px;
@@ -27,9 +27,7 @@ const Arrow = styled.div`
      cursor: pointer;
      opacity: 0.5;
      z-index: 2;
-
-
-`
+`;
 
 const Slider = () => {
   return (
