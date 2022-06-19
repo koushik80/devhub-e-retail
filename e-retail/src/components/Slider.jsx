@@ -7,6 +7,7 @@ const Container = styled.div`
      display: flex;
      position: relative;
      overflow: hidden;
+    
 `
 
 const Arrow = styled.div`
@@ -20,6 +21,10 @@ const Arrow = styled.div`
      position: absolute;
      top: 0;
      bottom: 0;
+     margin: auto;
+     cursor: pointer;
+     opacity: 0.5;
+     z-index: 2;
 
 
 `
