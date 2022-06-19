@@ -85,7 +85,7 @@ const Slider = () => {
       <Wrapper>
         <Slide>
         <ImgContainer>
-          <Image src="https://i.ibb.co/XsdmR2c/1.png" />
+          <Image src="https://i.im.ge/2022/06/20/uMF4Oc.jpg" />
         </ImgContainer>
           <InfoContainer>
             <Title>Summer Sale</Title>
