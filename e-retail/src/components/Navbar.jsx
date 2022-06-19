@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import { styled } from 'styled-components';
 import logo from './logo.png';
 import '../App.css';
 import { Search, ShoppingCartOutlined } from "@material-ui/icons";
