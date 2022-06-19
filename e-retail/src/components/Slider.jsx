@@ -10,7 +10,11 @@ const Container = styled.div`
 `
 
 const Arrow = styled.div`
-     
+     width: 50px;
+     height: 50px;
+     background-color: #f9f9f9;
+     border-radius: 50%;
+
 
 `
 
@@ -18,7 +22,10 @@ const Slider = () => {
   return (
     <Container>
       <Arrow direction="left" onClick={() => handleClick("left")}>
-         <ArrowLeftOutlined />
+        <ArrowLeftOutlined />
+      </Arrow>
+      <Arrow>
+        <ArrowRightOutlined />
       </Arrow>
     </Container>
   )
