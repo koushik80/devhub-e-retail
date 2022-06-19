@@ -1,13 +1,15 @@
 import React from 'react';
-import { styled } from 'styled-components';
+import styled from 'styled-components';
 import logo from './logo.png';
 import '../App.css';
 import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 import { Badge } from "@material-ui/core";
+import { mobile } from "../responsive";
 
 const Container = styled.div`
      height: 60px;
      background-color: white;
+     ${mobile({ height: "50px" })}
 `;
 
 const Wrapper = styled.div`
@@ -15,6 +17,7 @@ const Wrapper = styled.div`
      display: flex;
      align-items: center;
      justify-content: space-between;
+     ${mobile({ padding: "10px 0px" })}
 `;
 
 const Left = styled.div`
