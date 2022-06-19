@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 import { useState } from 'react';
+import { sliderItems } from '../data';
 
 const Container = styled.div`
      width: 100%;
@@ -92,17 +93,19 @@ const Slider = () => {
       <Arrow direction="left" onClick={() => handleClick("left")}>
         <ArrowLeftOutlined />
       </Arrow>
-      <Wrapper>
-        <Slide bg="f5fafd">
+      <Wrapper slideIndex={slideIndex}>
+        {sliderItems.map((item) => (
+          <Slide bg={item.bg} key={item.id}>
         <ImgContainer>
-          <Image src="https://i.im.ge/2022/06/20/uMF4Oc.jpg" />
+          <Image src={item.img} />
         </ImgContainer>
           <InfoContainer>
-            <Title>Summer Sale</Title>
-            <Desc>Get 30% discount!</Desc>
-            <Button>Shop now</Button>
+            <Title>{item.title}</Title>
+            <Desc>{item.desc}</Desc>
+            <Button>Show now</Button>
         </InfoContainer>
         </Slide>
+       ))}
 
       </Wrapper>
       <Arrow direction="right" onClick={() => handleClick("right")}>
