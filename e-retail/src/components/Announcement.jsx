@@ -9,7 +9,6 @@ const Container = styled.div`
      font-size: 14px;
      font-weight: 800;
      color: light;
-
 `
 
 const Announcement = () => {

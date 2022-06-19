@@ -15,7 +15,7 @@ export const sliderItems = [
     },
     {
       id: 3,
-      img: "https://i.im.ge/2022/06/20/uMF4Oc.jpg",
+      img: "https://i.im.ge/2022/06/20/uMa9PM.jpg",
       title: "LOUNGEWEAR LOVE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "fbf0f4",
