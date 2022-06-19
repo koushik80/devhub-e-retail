@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
+import { useState } from 'react';
 
 const Container = styled.div`
      width: 100%;
@@ -77,13 +78,22 @@ const Button = styled.button`
 
 
 const Slider = () => {
+  const [slideIndex, setSlideIndex] = useState(0);
+  const handleClick = (direction) => {
+    if (direction === "left") {
+      setSlideIndex(slideIndex > 0 ? slideIndex - 1 : 2);
+    } else {
+      setSlideIndex(slideIndex < 2 ? slideIndex + 1 : 0);
+    }
+  };
+
   return (
     <Container>
       <Arrow direction="left" onClick={() => handleClick("left")}>
         <ArrowLeftOutlined />
       </Arrow>
       <Wrapper>
-        <Slide>
+        <Slide bg="f5fafd">
         <ImgContainer>
           <Image src="https://i.im.ge/2022/06/20/uMF4Oc.jpg" />
         </ImgContainer>
