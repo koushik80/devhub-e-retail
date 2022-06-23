@@ -6,10 +6,14 @@ const Container = styled.div`
 
 
 `;
-
+const Image = styled.img`
+  
+`;
 const Product = () => {
   return (
     <Container>
+      <Circle />
+      <Image src={item.img} />
 
     </Container>
   )
