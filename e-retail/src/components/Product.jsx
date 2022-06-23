@@ -12,7 +12,7 @@ const Image = styled.img`
 const Circle = styled.div`
   
 `;
-const Product = () => {
+const Product = ({ item }) => {
   return (
     <Container>
       <Circle />
