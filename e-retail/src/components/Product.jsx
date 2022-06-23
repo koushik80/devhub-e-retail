@@ -7,6 +7,9 @@ const Container = styled.div`
 
 `;
 const Image = styled.img`
+
+`;
+const Circle = styled.div`
   
 `;
 const Product = () => {
