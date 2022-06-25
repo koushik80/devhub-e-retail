@@ -11,6 +11,10 @@ const Left = styled.div`
 `;
 const Logo = styled.h1``;
 
+const Desc = styled.p`
+  margin: 20px 0px;
+`;
+
 const Center = styled.div`
   flex: 1;
 `;
@@ -22,7 +26,12 @@ const Footer = () => {
     return (
         <Container>
             <Left>
-                  <Logo>devHuß</Logo>
+                <Logo>devHuß</Logo>
+                <Desc>
+                    There are many variations of passages of Lorem Ipsum available, but
+                    the majority have suffered alteration in some form, by injected
+                    humour, or randomised words which don’t look even slightly believable.
+                </Desc>
             </Left>
             <Center></Center>
             <Right></Right>
