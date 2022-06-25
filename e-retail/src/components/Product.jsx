@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import { ShoppingCartOutlined } from '@material-ui/icons';
 
 const Info = styled.div`
 
@@ -25,7 +25,9 @@ const Product = ({ item }) => {
       <Circle />
       <Image src={item.img} />
       <Info>
-        <Icon></Icon>
+        <Icon>
+           <ShoppingCartOutlined />
+        </Icon>
         <Icon></Icon>
         <Icon></Icon>
       </Info>
