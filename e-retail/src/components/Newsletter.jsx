@@ -6,7 +6,7 @@ const Container = styled.div`
 
 `;
 
-const Title = styled.div`
+const Title = styled.h1`
 
 `;
 
@@ -18,11 +18,11 @@ const InputContainer = styled.div`
 
 `;
 
-const Input = styled.div`
+const Input = styled.input`
 
 `;
 
-const Button = styled.div`
+const Button = styled.button`
 
 `;
 
