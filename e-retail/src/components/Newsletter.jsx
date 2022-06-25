@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Send } from '@material-ui/icons';
 
 const Newsletter = () => {
     return (
@@ -8,7 +9,7 @@ const Newsletter = () => {
             <InputContainer>
                 <Input />
                 <Button>
-                    
+                    <Send />
                 </Button>
             </InputContainer>
         </Container>
