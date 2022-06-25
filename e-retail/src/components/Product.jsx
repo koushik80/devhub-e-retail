@@ -2,7 +2,8 @@ import styled from 'styled-components';
 import { ShoppingCartOutlined, SearchOutlined, FavoriteBorderOutlined } from '@material-ui/icons';
 
 const Info = styled.div`
-
+  opacity: 0;
+  width: 100%;
 `;
 const Container = styled.div`
   flex: 1;
@@ -29,8 +30,8 @@ const Circle = styled.div`
   width: 200px;
   height: 200px;
   border-radius: 50%;
-
-
+  background-color: white;
+  position: absolute;
 `;
 
 const Icon = styled.div`
