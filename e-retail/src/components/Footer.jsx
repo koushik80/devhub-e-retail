@@ -15,6 +15,10 @@ const Desc = styled.p`
   margin: 20px 0px;
 `;
 
+const SocialContainer = styled.div`
+  display: flex;
+`;
+
 const Center = styled.div`
   flex: 1;
 `;
@@ -32,6 +36,9 @@ const Footer = () => {
                     the majority have suffered alteration in some form, by injected
                     humour, or randomised words which don’t look even slightly believable.
                 </Desc>
+                <SocialContainer>
+
+                </SocialContainer>
             </Left>
             <Center></Center>
             <Right></Right>
