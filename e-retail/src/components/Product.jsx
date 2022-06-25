@@ -34,7 +34,6 @@ const Container = styled.div`
 const Image = styled.img`
   height: 75%;
   z-index: 2;
-
 `;
 const Circle = styled.div`
   width: 200px;
