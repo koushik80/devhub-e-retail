@@ -10,13 +10,18 @@ const Image = styled.img`
 
 `;
 const Circle = styled.div`
-  
+
 `;
 const Product = ({ item }) => {
   return (
     <Container>
       <Circle />
-       <Image src={item.img} />
+      <Image src={item.img} />
+      <Info>
+        <Icon></Icon>
+        <Icon></Icon>
+        <Icon></Icon>
+      </Info>
 
     </Container>
   )
