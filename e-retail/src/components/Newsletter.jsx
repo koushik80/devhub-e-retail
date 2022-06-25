@@ -3,7 +3,10 @@ import { Send } from '@material-ui/icons';
 
 
 const Container = styled.div`
-
+  height: 60vh;
+  background-color: #fcf5f5;
+  display: flex;
+  align-item: center;
 `;
 
 const Title = styled.h1`
