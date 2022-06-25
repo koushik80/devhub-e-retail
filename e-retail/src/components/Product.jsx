@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { ShoppingCartOutlined, SearchOutlined } from '@material-ui/icons';
+import { ShoppingCartOutlined, SearchOutlined, FavoriteBorderOutlined } from '@material-ui/icons';
 
 const Info = styled.div`
 
@@ -31,7 +31,9 @@ const Product = ({ item }) => {
         <Icon>
           <SearchOutlined />
         </Icon>
-        <Icon></Icon>
+        <Icon>
+          <FavoriteBorderOutlined />
+        </Icon>
       </Info>
 
     </Container>
