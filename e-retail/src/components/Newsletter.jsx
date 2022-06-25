@@ -2,7 +2,12 @@ import styled from 'styled-components';
 
 const Newsletter = () => {
     return (
-        <div>Newsletter</div>
+        <Container>
+            <Title></Title>
+            <Description></Description>
+            <InputContainer>
+            </InputContainer>
+        </Container>
     );
 };
 
