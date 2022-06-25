@@ -6,6 +6,10 @@ const Newsletter = () => {
             <Title></Title>
             <Description></Description>
             <InputContainer>
+                <Input />
+                <Button>
+                    
+                </Button>
             </InputContainer>
         </Container>
     );
