@@ -5,6 +5,9 @@ import {
     Instagram,
     Twitter,
     Pinterest,
+    Room,
+    MailOutline,
+    Phone,
 } from '@material-ui/icons';
 
 
@@ -115,16 +118,16 @@ const Footer = () => {
         <Right>
           <Title>Contact</Title>
           <ContactItem>
-            Ongenkoukku 87
+          <Room style={{marginRight:"10px"}}/> Ongenkoukku 87
           </ContactItem>
           <ContactItem>
-            01490, Vantaa
+           <Room style={{marginRight:"10px"}}/> 01490, Vantaa
           </ContactItem>
           <ContactItem>
-            +358 80 28000
+           <Phone style={{marginRight:"10px"}}/> +358 80 28000
           </ContactItem>
           <ContactItem>
-            firstname.lastname@devhub.fi
+           <MailOutline style={{marginRight:"10px"}} /> firstname.lastname@devhub.fi
           </ContactItem>
         </Right>
 
