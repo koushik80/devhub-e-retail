@@ -105,7 +105,9 @@ const Footer = () => {
                     <ListItem>Terms</ListItem>
                 </List>
             </Center>
-            <Right></Right>
+        <Right>
+          <Title>Contact</Title>
+        </Right>
 
         </Container>
     );
