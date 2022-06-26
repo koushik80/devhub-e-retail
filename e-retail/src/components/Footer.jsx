@@ -72,7 +72,10 @@ const ContactItem = styled.div`
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+`;
 
+const Payment = styled.img`
+    width: 50%;
 `;
 
 const Footer = () => {
@@ -127,6 +130,7 @@ const Footer = () => {
           <ContactItem>
            <MailOutline style={{marginRight:"10px"}} /> firstname.lastname@devhub.fi
           </ContactItem>
+          <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
         </Right>
 
         </Container>
