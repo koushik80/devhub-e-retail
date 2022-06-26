@@ -48,7 +48,8 @@ const Title = styled.h3`
 `;
 
 const List = styled.ul`
-
+  margin: 0;
+  padding: 0;
 `;
 
 const ListItem = styled.li`
