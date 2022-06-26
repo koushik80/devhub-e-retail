@@ -85,7 +85,21 @@ const Footer = () => {
                     </SocialIcon>
                 </SocialContainer>
             </Left>
-            <Center></Center>
+            <Center>
+                <Title>Useful Links</Title>
+                <List>
+                    <ListItem>Home</ListItem>
+                    <ListItem>Cart</ListItem>
+                    <ListItem>Man Fashion </ListItem>
+                    <ListItem>Woman fashion</ListItem>
+                    <ListItem>Accessories</ListItem>
+                    <ListItem>My Account</ListItem>
+                    <ListItem>Order Tracking</ListItem>
+                    <ListItem>Wishilist</ListItem>
+                    <ListItem>Wishilist</ListItem>
+                    <ListItem>Terms</ListItem>
+                </List>
+            </Center>
             <Right></Right>
 
         </Container>
