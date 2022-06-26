@@ -65,6 +65,11 @@ const Right = styled.div`
   padding: 20px;
 `;
 
+const ContactItem = styled.div`
+
+
+`;
+
 const Footer = () => {
     return (
         <Container>
@@ -107,6 +112,7 @@ const Footer = () => {
             </Center>
         <Right>
           <Title>Contact</Title>
+          <ContactItem></ContactItem>
         </Right>
 
         </Container>
