@@ -51,6 +51,8 @@ const List = styled.ul`
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 `;
 
 const ListItem = styled.li`
