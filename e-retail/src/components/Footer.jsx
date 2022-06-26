@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 import { mobile } from '../responsive';
-import {  } from '@material-ui/icons';
+import {
+    Facebook,
+    Instagram,
+    Twitter,
+    Pinterest
+} from '@material-ui/icons';
 
 
 const Container = styled.div`
@@ -16,7 +21,15 @@ const Desc = styled.p`
 `;
 
 const SocialIcon = styled.div`
-
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  background-color: #${(props) => props.color};
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
 `;
 const SocialContainer = styled.div`
   display: flex;
@@ -40,7 +53,18 @@ const Footer = () => {
                     humour, or randomised words which don’t look even slightly believable.
                 </Desc>
                 <SocialContainer>
-                    <SocialIcon></SocialIcon>
+                    <SocialIcon>
+                        <Facebook />
+                    </SocialIcon>
+                    <SocialIcon>
+                        <Instagram />
+                    </SocialIcon>
+                    <SocialIcon>
+                        <Twitter />
+                    </SocialIcon>
+                    <SocialIcon>
+                        <Pinterest />
+                    </SocialIcon>
                 </SocialContainer>
             </Left>
             <Center></Center>
