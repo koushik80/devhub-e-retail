@@ -66,7 +66,9 @@ const Right = styled.div`
 `;
 
 const ContactItem = styled.div`
-
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
 
 `;
 
@@ -112,7 +114,18 @@ const Footer = () => {
             </Center>
         <Right>
           <Title>Contact</Title>
-          <ContactItem></ContactItem>
+          <ContactItem>
+            Ongenkoukku 87
+          </ContactItem>
+          <ContactItem>
+            01490, Vantaa
+          </ContactItem>
+          <ContactItem>
+            +358 80 28000
+          </ContactItem>
+          <ContactItem>
+            firstname.lastname@devhub.fi
+          </ContactItem>
         </Right>
 
         </Container>
