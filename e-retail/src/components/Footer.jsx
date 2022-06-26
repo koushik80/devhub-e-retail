@@ -15,6 +15,9 @@ const Desc = styled.p`
   margin: 20px 0px;
 `;
 
+const SocialIcon = styled.div`
+
+`;
 const SocialContainer = styled.div`
   display: flex;
 `;
@@ -37,7 +40,7 @@ const Footer = () => {
                     humour, or randomised words which don’t look even slightly believable.
                 </Desc>
                 <SocialContainer>
-
+                    <SocialIcon></SocialIcon>
                 </SocialContainer>
             </Left>
             <Center></Center>
