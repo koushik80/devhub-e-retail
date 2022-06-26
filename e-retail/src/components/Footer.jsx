@@ -129,14 +129,14 @@ const Footer = () => {
             01490 Vantaa
           </ContactItem>
           <ContactItem>
-           <Phone style={{marginRight:"10px"}}/> +358 80 28000
+           <Phone style={{ marginRight:"10px" }} /> +358 80 28000
           </ContactItem>
           <ContactItem>
-           <MailOutline style={{marginRight:"10px"}} /> firstname.lastname@devhub.fi
+           <MailOutline style={{ marginRight:"10px" }} /> firstname.lastname@devhub.fi
           </ContactItem>
           <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
         </Right>
-        </Container>
+      </Container>
     );
 };
 
