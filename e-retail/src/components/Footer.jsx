@@ -50,6 +50,7 @@ const Title = styled.h3`
 const List = styled.ul`
   margin: 0;
   padding: 0;
+  list-style: none;
 `;
 
 const ListItem = styled.li`
