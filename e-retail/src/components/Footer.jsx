@@ -118,10 +118,8 @@ const Footer = () => {
         <Right>
           <Title>Contact</Title>
           <ContactItem>
-          <Room style={{marginRight:"10px"}}/> Ongenkoukku 87
-          </ContactItem>
-          <ContactItem>
-           <Room style={{marginRight:"10px"}}/> 01490, Vantaa
+            <Room style={{ marginRight: "10px" }} /> Ongenkoukku 87,
+            01490 Vantaa
           </ContactItem>
           <ContactItem>
            <Phone style={{marginRight:"10px"}}/> +358 80 28000
