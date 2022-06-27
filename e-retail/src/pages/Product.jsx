@@ -26,19 +26,22 @@ const Image = styled.img`
 `;
 
 const InfoContainer = styled.div`
-
+  flex: 1;
+  padding: 0px 50px;
+  ${mobile({ padding: "10px" })}
 `;
 
 const Title = styled.h1`
-
+  font-weight: 200;
 `;
 
 const Desc = styled.p`
-
+  margin: 20px 0px;
 `;
 
 const Price = styled.span`
-
+  font-weight: 100;
+  font-size: 40px;
 `;
 
 const Product = () => {
