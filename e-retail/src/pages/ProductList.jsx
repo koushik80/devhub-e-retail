@@ -73,13 +73,12 @@ const ProductList = () => {
                  <Option selected>Newest</Option>
                  <Option>Price (asc)</Option>
                  <Option>Price (desc)</Option>
-          </Select>
+               </Select>
               </Filter>
-              <Products />
-              <Newsletter />
-              <Footer />
-            </FilterContainer>
-
+          </FilterContainer>
+          <Products />
+          <Newsletter />
+          <Footer />
         </Container>
     );
 };
