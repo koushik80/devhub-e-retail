@@ -30,6 +30,12 @@ const FilterText = styled.span`
   ${mobile({ marginRight: "0px" })}
 `;
 
+const Select = styled.select`
+
+`;
+
+const Option = styled.option``;
+
 const ProductList = () => {
     return (
         <Container>
@@ -38,10 +44,21 @@ const ProductList = () => {
             <Title>Dresses</Title>
             <FilterContainer>
               <Filter>
-                <FilterText>Filter Products:</FilterText>
+               <FilterText>Filter Products:</FilterText>
+               <Select>
+                 <Option disabled selected>
+                   Color
+                 </Option>
+                 <Option>White</Option>
+                 <Option>Black</Option>
+                 <Option>Red</Option>
+                 <Option>Blue</Option>
+                 <Option>Yellow</Option>
+                 <Option>Green</Option>
+               </Select>
               </Filter>
               <Filter>
-
+                <FilterText>Sort Products:</FilterText>
               </Filter>
               <Products />
               <Newsletter />
