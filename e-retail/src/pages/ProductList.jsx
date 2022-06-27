@@ -34,6 +34,12 @@ const ProductList = () => {
                 <Filter>
 
                 </Filter>
+                <Filter>
+
+                </Filter>
+                <Filter>
+
+                </Filter>
             </FilterContainer>
 
         </Container>
