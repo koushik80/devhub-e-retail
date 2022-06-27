@@ -77,10 +77,10 @@ const ProductList = () => {
                  <Option>Price (desc)</Option>
                </Select>
               </Filter>
-          </FilterContainer>
-          <Products />
-          <Newsletter />
-          <Footer />
+            </FilterContainer>
+            <Products />
+            <Newsletter />
+            <Footer />
         </Container>
     );
 };
