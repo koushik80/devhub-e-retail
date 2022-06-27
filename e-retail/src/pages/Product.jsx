@@ -6,11 +6,14 @@ import Newsletter from '../components/Newsletter'
 
 const Container = styled.div``;
 
+const Wrapper = styled.div``;
+
 const Product = () => {
     return (
         <Container>
             <Navbar />
             <Announcement />
+            <Wrapper></Wrapper>
             <Newsletter />
             <Footer />
         </Container>
