@@ -28,6 +28,10 @@ const Desc = styled.p`
 
 `;
 
+const Price = styled.span`
+
+`;
+
 const Product = () => {
     return (
         <Container>
@@ -39,7 +43,14 @@ const Product = () => {
                </ImgContainer>
                 <InfoContainer>
                     <Title>Denim Jumpsuit</Title>
-                    <Desc></Desc>
+                    <Desc>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                        venenatis, dolor in finibus malesuada, lectus ipsum porta nunc, at
+                        iaculis arcu nisi sed mauris. Nulla fermentum vestibulum ex, eget
+                        tristique tortor pretium ut. Curabitur elit justo, consequat id
+                        condimentum ac, volutpat ornare.
+                    </Desc>
+                    <Price>€ 25</Price>
                 </InfoContainer>
             </Wrapper>
             <Newsletter />
