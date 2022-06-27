@@ -60,6 +60,12 @@ const FilterColor = styled.div`
 
 `;
 
+const FilterSize = styled.select`
+
+`;
+
+const FilterSizeOption = styled.option``;
+
 
 const Product = () => {
     return (
@@ -87,7 +93,16 @@ const Product = () => {
                             <FilterColor color="darkblue" />
                             <FilterColor color="gray" />
                         </Filter>
-                        <Filter></Filter>
+                        <Filter>
+                            <FilterTitle>Size</FilterTitle>
+                            <FilterSize>
+                              <FilterSizeOption>XS</FilterSizeOption>
+                              <FilterSizeOption>S</FilterSizeOption>
+                              <FilterSizeOption>M</FilterSizeOption>
+                              <FilterSizeOption>L</FilterSizeOption>
+                              <FilterSizeOption>XL</FilterSizeOption>
+                           </FilterSize>
+                        </Filter>
                     </FilterContainer>
                 </InfoContainer>
             </Wrapper>
