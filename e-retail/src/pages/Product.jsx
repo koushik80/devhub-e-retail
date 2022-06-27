@@ -44,6 +44,23 @@ const Price = styled.span`
   font-size: 40px;
 `;
 
+const FilterContainer = styled.div`
+
+`;
+
+const Filter = styled.div`
+
+`;
+
+const FilterTitle = styled.span`
+
+`;
+
+const FilterColor = styled.div`
+
+`;
+
+
 const Product = () => {
     return (
         <Container>
@@ -63,6 +80,15 @@ const Product = () => {
                         condimentum ac, volutpat ornare.
                     </Desc>
                     <Price>€ 25</Price>
+                    <FilterContainer>
+                        <Filter>
+                            <FilterTitle>Color</FilterTitle>
+                            <FilterColor color="black" />
+                            <FilterColor color="darkblue" />
+                            <FilterColor color="gray" />
+                        </Filter>
+                        <Filter></Filter>
+                    </FilterContainer>
                 </InfoContainer>
             </Wrapper>
             <Newsletter />
