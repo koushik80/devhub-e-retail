@@ -24,6 +24,10 @@ const Title = styled.h1`
 
 `;
 
+const Desc = styled.p`
+
+`;
+
 const Product = () => {
     return (
         <Container>
@@ -34,7 +38,8 @@ const Product = () => {
                   <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
                </ImgContainer>
                 <InfoContainer>
-                   <Title>Denim Jumpsuit</Title>
+                    <Title>Denim Jumpsuit</Title>
+                    <Desc></Desc>
                 </InfoContainer>
             </Wrapper>
             <Newsletter />
