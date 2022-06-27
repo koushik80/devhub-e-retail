@@ -53,11 +53,13 @@ const FilterContainer = styled.div`
 `;
 
 const Filter = styled.div`
-
+  display: flex;
+  align-items: center;
 `;
 
 const FilterTitle = styled.span`
-
+  font-size: 20px;
+  font-weight: 200;
 `;
 
 const FilterColor = styled.div`
