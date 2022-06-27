@@ -8,12 +8,35 @@ const Container = styled.div``;
 
 const Wrapper = styled.div``;
 
+const ImgContainer = styled.div`
+  flex: 1;
+`;
+
+const Image = styled.img`
+
+`;
+
+const InfoContainer = styled.div`
+
+`;
+
+const Title = styled.h1`
+
+`;
+
 const Product = () => {
     return (
         <Container>
             <Navbar />
             <Announcement />
-            <Wrapper></Wrapper>
+            <Wrapper>
+               <ImgContainer>
+                  <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
+               </ImgContainer>
+                <InfoContainer>
+                   <Title>Denim Jumpsuit</Title>
+                </InfoContainer>
+            </Wrapper>
             <Newsletter />
             <Footer />
         </Container>
