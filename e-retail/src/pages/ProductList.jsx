@@ -31,19 +31,19 @@ const ProductList = () => {
             <Announcement />
             <Title>Dresses</Title>
             <FilterContainer>
-                <Filter>
+              <Filter>
 
-                </Filter>
-                <Filter>
+              </Filter>
+              <Filter>
 
-                </Filter>
-                <Filter>
-
-                </Filter>
+              </Filter>
+              <Products />
+              <Newsletter />
+              <Footer />
             </FilterContainer>
 
         </Container>
     );
 };
 
-export default ProductList
+export default ProductList;
