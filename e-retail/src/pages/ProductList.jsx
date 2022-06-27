@@ -23,6 +23,11 @@ const Filter = styled.div`
   ${mobile({ width: "0px 20px", display: "flex", flexDirection: "column" })}
 `;
 
+const FilterText = styled.span`
+  font-size: 20px;
+  font-weight: 600;
+  
+`;
 
 const ProductList = () => {
     return (
@@ -32,7 +37,7 @@ const ProductList = () => {
             <Title>Dresses</Title>
             <FilterContainer>
               <Filter>
-
+                <FilterText>Filter Products:</FilterText>
               </Filter>
               <Filter>
 
