@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import Newsletter from '../components/Newsletter'
 import { mobile } from '../responsive';
-
+import { Add, Remove } from '@material-ui/icons';
 
 const Container = styled.div``;
 
@@ -81,7 +81,9 @@ const FilterSizeOption = styled.option``;
 const AddContainer = styled.div`
 
 `;
+const AmountContainer = styled.div`
 
+`;
 
 
 const Product = () => {
@@ -122,7 +124,12 @@ const Product = () => {
                         </Filter>
                     </FilterContainer>
                     <AddContainer>
-              
+
+                      <AmountContainer>
+                        <Remove />
+                        <Amount>1</Amount>
+                        <Add />
+                      </AmountContainer>
                     </AddContainer>
                 </InfoContainer>
             </Wrapper>
