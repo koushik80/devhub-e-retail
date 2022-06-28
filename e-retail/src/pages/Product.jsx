@@ -79,10 +79,16 @@ const FilterSize = styled.select`
 const FilterSizeOption = styled.option``;
 
 const AddContainer = styled.div`
-
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  ${mobile({ width: "100%" })}
 `;
 const AmountContainer = styled.div`
-
+  display: flex;
+  align-items: center;
+  font-weight: 700;
 `;
 
 const Amount = styled.span`
