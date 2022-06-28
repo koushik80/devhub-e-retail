@@ -85,6 +85,14 @@ const AmountContainer = styled.div`
 
 `;
 
+const Amount = styled.span`
+
+`;
+
+const Button = styled.button`
+
+`;
+
 
 const Product = () => {
     return (
@@ -124,12 +132,12 @@ const Product = () => {
                         </Filter>
                     </FilterContainer>
                     <AddContainer>
-
                       <AmountContainer>
                         <Remove />
                         <Amount>1</Amount>
                         <Add />
                       </AmountContainer>
+                      <Button>ADD TO CART</Button>
                     </AddContainer>
                 </InfoContainer>
             </Wrapper>
