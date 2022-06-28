@@ -92,6 +92,8 @@ const AmountContainer = styled.div`
 `;
 
 const Amount = styled.span`
+  width: 30px;
+  height: 30px;
 
 `;
 
