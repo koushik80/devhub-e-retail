@@ -78,6 +78,11 @@ const FilterSize = styled.select`
 
 const FilterSizeOption = styled.option``;
 
+const AddContainer = styled.div`
+
+`;
+
+
 
 const Product = () => {
     return (
@@ -116,6 +121,9 @@ const Product = () => {
                            </FilterSize>
                         </Filter>
                     </FilterContainer>
+                    <AddContainer>
+              
+                    </AddContainer>
                 </InfoContainer>
             </Wrapper>
             <Newsletter />
