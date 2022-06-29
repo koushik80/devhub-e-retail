@@ -7,6 +7,13 @@ const Container = styled.div`
 
 `;
 
+const Wrapper = styled.div`
+
+`;
+
+const Title = styled.h1`
+
+`;
 
 
 
@@ -16,6 +23,9 @@ const Cart = () => {
         <Container>
             <Navbar />
             <Announcement />
+            <Wrapper>
+                <Title>YOUR ORDERS</Title>
+            </Wrapper>
         </Container>
     );
 };
