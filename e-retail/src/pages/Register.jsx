@@ -21,6 +21,7 @@ const Wrapper = styled.div`
   width: 40%;
   padding: 20px;
   background-color: white;
+  border-radius: 5px;
   ${mobile({ width: "75%" })}
 
 `;
@@ -43,12 +44,18 @@ const Input = styled.input`
 `;
 
 const Agreement = styled.span`
-
+  font-size: 12px;
+  margin: 20px 0px;
 `;
 
 const Button = styled.button`
-
-
+  width: 40%;
+  border: none;
+  padding: 15px 20px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
 `;
 
 
@@ -58,12 +65,12 @@ const Register = () => {
             <Wrapper>
                 <Title>CREATE AN ACCOUNT</Title>
                 <Form>
-                    <Input placeholder="first name" />
-                    <Input placeholder="last name" />
-                    <Input placeholder="username" />
-                    <Input placeholder="email" />
-                    <Input placeholder="password" />
-                    <Input placeholder="confirm password" />
+                    <Input placeholder="First Name" />
+                    <Input placeholder="Last Name" />
+                    <Input placeholder="Username" />
+                    <Input placeholder="Email" />
+                    <Input placeholder="Password" />
+                    <Input placeholder="Confirm Password" />
                     <Agreement>
                         By creating an account, I consent to the processing of my personal
                         data in accordance with the <b>PRIVACY POLICY</b>
