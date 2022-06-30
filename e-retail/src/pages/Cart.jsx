@@ -49,6 +49,10 @@ const Cart = () => {
                 <Title>YOUR ORDERS</Title>
                 <Top>
                     <TopButton>CONTINUE SHOPPING</TopButton>
+                    <TopTexts>
+                        <TopText>Your Order(2)</TopText>
+                        <TopText>Your Wishlist (0)</TopText>
+                    </TopTexts>
                     <TopButton>CHECKOUT NOW</TopButton>
                 </Top>
                 <Bottom></Bottom>
