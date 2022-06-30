@@ -51,6 +51,22 @@ const Bottom = styled.div`
   ${mobile({ flexDirection: "column" })}
 `;
 
+const Info = styled.div`
+  flex: 3;
+`;
+
+const Summary = styled.div`
+  flex: 1;
+  border: 0.5px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+  height: 50vh;
+`;
+
+
+
+
+
 
 const Cart = () => {
     return (
@@ -67,7 +83,14 @@ const Cart = () => {
                     </TopTexts>
                     <TopButton type="filled">CHECKOUT NOW</TopButton>
                 </Top>
-                <Bottom></Bottom>
+                <Bottom>
+                    <Info>
+                        <Product>
+                            
+                        </Product>
+                    </Info>
+                    <Summary>summary</Summary>
+                </Bottom>
             </Wrapper>
             <Footer />
         </Container>
