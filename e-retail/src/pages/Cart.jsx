@@ -19,7 +19,13 @@ const Title = styled.h1`
   text-align: center;
 `;
 
+const Top = styled.div`
 
+`;
+
+const Bottom = styled.div`
+
+`;
 
 
 const Cart = () => {
@@ -27,9 +33,10 @@ const Cart = () => {
         <Container>
             <Navbar />
             <Announcement />
-            cart
             <Wrapper>
                 <Title>YOUR ORDERS</Title>
+                <Top></Top>
+                <Bottom></Bottom>
             </Wrapper>
             <Footer />
         </Container>
