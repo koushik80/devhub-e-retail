@@ -55,6 +55,25 @@ const Info = styled.div`
   flex: 3;
 `;
 
+const Product = styled.div`
+  display: flex;
+  justify-content: space-between;
+  ${mobile({ flexDirection: "column" })}
+`;
+
+const ProductDetail = styled.div`
+  flex: 2;
+  display: flex;
+`;
+
+const PriceDetail = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
+
 const Summary = styled.div`
   flex: 1;
   border: 0.5px solid lightgray;
@@ -86,7 +105,8 @@ const Cart = () => {
                 <Bottom>
                     <Info>
                         <Product>
-                            
+                            <ProductDetail></ProductDetail>
+                            <PriceDetail></PriceDetail>
                         </Product>
                     </Info>
                     <Summary>summary</Summary>
