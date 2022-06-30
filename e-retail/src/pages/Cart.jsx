@@ -178,6 +178,31 @@ const Cart = () => {
                             </PriceDetail>
                         </Product>
                         <Hr />
+                        <Product>
+                          <ProductDetail>
+                            <Image src="https://i.pinimg.com/originals/2d/af/f8/2daff8e0823e51dd752704a47d5b795c.png" />
+                            <Details>
+                             <ProductName>
+                               <b>Product:</b> HAKURA T-SHIRT
+                             </ProductName>
+                             <ProductId>
+                               <b>ID:</b> 93813718293
+                             </ProductId>
+                             <ProductColor color="gray" />
+                             <ProductSize>
+                               <b>Size:</b> M
+                             </ProductSize>
+                            </Details>
+                          </ProductDetail>
+                          <PriceDetail>
+                             <ProductAmountContainer>
+                               <Add />
+                               <ProductAmount>1</ProductAmount>
+                               <Remove />
+                            </ProductAmountContainer>
+                            <ProductPrice>€ 20</ProductPrice>
+                            </PriceDetail>
+                        </Product>
                     </Info>
                     <Summary>summary</Summary>
                 </Bottom>
