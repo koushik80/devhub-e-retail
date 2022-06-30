@@ -3,7 +3,7 @@ import Announcement from '../components/Announcement';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import { mobile } from '../responsive';
-
+import { Add, Remove } from '@material-ui/icons';
 
 const Container = styled.div`
 
@@ -98,6 +98,30 @@ const PriceDetail = styled.div`
   justify-content: center;
 `;
 
+const ProductAmountContainer = styled.div`
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+`;
+
+const ProductAmount = styled.div`
+  font-size: 24px;
+  margin: 5px;
+  ${mobile({ margin: "5px 15px" })}
+`;
+
+const ProductPrice = styled.div`
+  font-size: 30px;
+  font-weight: 200;
+  ${mobile({ marginBottom: "20px" })}
+`;
+
+const Hr = styled.hr`
+  background-color: #eee;
+  border: none;
+  height: 1px;
+`;
+
 const Summary = styled.div`
   flex: 1;
   border: 0.5px solid lightgray;
@@ -153,6 +177,7 @@ const Cart = () => {
                                   <ProductPrice>€ 30</ProductPrice>
                             </PriceDetail>
                         </Product>
+                        <Hr />
                     </Info>
                     <Summary>summary</Summary>
                 </Bottom>
