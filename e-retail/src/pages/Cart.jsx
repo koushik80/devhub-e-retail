@@ -26,6 +26,11 @@ const Top = styled.div`
   padding: 20px;
 `;
 
+const TopButton = styled.button`
+
+
+`;
+
 const Bottom = styled.div`
   display: flex;
   justify-content: space-between;
@@ -40,7 +45,9 @@ const Cart = () => {
             <Announcement />
             <Wrapper>
                 <Title>YOUR ORDERS</Title>
-                <Top></Top>
+                <Top>
+                    <TopButton>Continue Shopping</TopButton>
+                </Top>
                 <Bottom></Bottom>
             </Wrapper>
             <Footer />
