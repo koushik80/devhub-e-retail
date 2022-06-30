@@ -6,7 +6,6 @@ import { mobile } from '../responsive';
 import { Add, Remove } from '@material-ui/icons';
 
 const Container = styled.div`
-
 `;
 
 const Wrapper = styled.div`
