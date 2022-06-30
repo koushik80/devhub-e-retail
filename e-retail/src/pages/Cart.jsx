@@ -27,9 +27,11 @@ const Cart = () => {
         <Container>
             <Navbar />
             <Announcement />
+            cart
             <Wrapper>
                 <Title>YOUR ORDERS</Title>
             </Wrapper>
+            <Footer />
         </Container>
     );
 };
