@@ -33,6 +33,15 @@ const TopButton = styled.button`
 
 `;
 
+const TopTexts = styled.div`
+  ${mobile({ display: "none" })}
+`;
+const TopText = styled.span`
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 0px 10px;
+`;
+
 const Bottom = styled.div`
   display: flex;
   justify-content: space-between;
@@ -50,7 +59,7 @@ const Cart = () => {
                 <Top>
                     <TopButton>CONTINUE SHOPPING</TopButton>
                     <TopTexts>
-                        <TopText>Your Order(2)</TopText>
+                        <TopText>Your Order (2)</TopText>
                         <TopText>Your Wishlist (0)</TopText>
                     </TopTexts>
                     <TopButton>CHECKOUT NOW</TopButton>
