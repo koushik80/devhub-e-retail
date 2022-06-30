@@ -27,7 +27,9 @@ const Top = styled.div`
 `;
 
 const Bottom = styled.div`
-
+  display: flex;
+  justify-content: space-between;
+  ${mobile({ flexDirection: "column" })}
 `;
 
 
