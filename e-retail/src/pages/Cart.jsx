@@ -27,7 +27,9 @@ const Top = styled.div`
 `;
 
 const TopButton = styled.button`
-
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
 
 `;
 
@@ -46,7 +48,8 @@ const Cart = () => {
             <Wrapper>
                 <Title>YOUR ORDERS</Title>
                 <Top>
-                    <TopButton>Continue Shopping</TopButton>
+                    <TopButton>CONTINUE SHOPPING</TopButton>
+                    <TopButton>CHECKOUT NOW</TopButton>
                 </Top>
                 <Bottom></Bottom>
             </Wrapper>
