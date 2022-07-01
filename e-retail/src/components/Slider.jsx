@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
+import { ArrowLeftOutlined, ArrowRightOutlined } from '@material-ui/icons';
 import { useState } from 'react';
 import { sliderItems } from '../data';
 import { mobile } from '../responsive';
