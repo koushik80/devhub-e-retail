@@ -24,28 +24,11 @@
 <li></li>
 <li></li>
 <li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
 </ul>
 
 <p>(Back-end) MongoDB,.......</p>
 
 <ul>
-<li></li>
-<li></li>
-<li></li>
 <li></li>
 <li></li>
 </ul>
@@ -61,40 +44,21 @@
   <p>Setting up the Routes</p>
   <p>CRUD Operations</p>
   <p>To learn unique server-side and client-side execution environments</p>
-  <p></p>
-  <p></p>
-  <p></p>
-  <p></p>
-  <p></p>
   <p>Deploy App to Netlify & Heroku</p>
   <p>Gain knowledge of frontend and backend concepts</p>
 
 <h3 align="left">Technologies:</h3>
 
- <p>Visual Studio Code</p>
+  <p>Visual Studio Code</p>
   <p>React</p>
   <p>styled-components</p>
-  <p></p>
-  <p></p>
   <p>React-dom</p>
   <p>React-hook</p>
   <p>React-router-dom</p>
   <p>Material-UI</p>
-  <p></p>
-  <p></p>
-  <p></p>
-  <p></p>
-  <p></p>
-  <p></p>
-  <p></p>
-  <p></p>
-  <p></p>
   <p>Mongoose</p>
   <p>MongoDB</p>
-  <p></p>
-  <p></p>
   <p>Node</p>
-  <p></p>
 
  <h3 align="left">Instruction:</h3>
 
@@ -117,7 +81,6 @@
 <li><a href="https://unsplash.com/">Unsplash</a></li>
 <li><a href="https://reactjs.org/">React</a></li>
 <li><a href="https://blog.logrocket.com/mern-stack-tutorial/">LogRocket</a></li>
-<li><a href=""></a></li>
 </ul>
 
 <h3 align="left">LICENSE:</h3>
