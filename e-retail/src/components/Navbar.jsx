@@ -81,7 +81,7 @@ const Navbar = () => {
             <Search style={{ color: "gray", fontSize: 16 }} />
           </SearchContainer>
         </Left>
-        <Center><Logo>devHuß</Logo>
+        <Center><Logo>devHuß<img src={logo} className="App-logo" alt="logo" /></Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
@@ -93,7 +93,7 @@ const Navbar = () => {
           </MenuItem>
         </Right>
       </Wrapper>
-      <img src={logo} className="App-logo" alt="logo" />
+      
     </Container>
   );
 };
