@@ -241,7 +241,7 @@ const Cart = () => {
                          <SummaryItemPrice>€ 80.00</SummaryItemPrice>
                     </SummaryItem>
                     <Button>CHECKOUT NOW</Button>
-                    </Summary>
+                   </Summary>
               </Bottom>
             </Wrapper>
             <Footer />
