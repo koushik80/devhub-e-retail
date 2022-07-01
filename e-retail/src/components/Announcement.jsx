@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components';
 
 const Container = styled.div`
      height: 30px;
@@ -16,7 +16,7 @@ const Announcement = () => {
     <Container>
       Super Deal! Free shipping on orders over 60€
     </Container>
-  )
-}
+  );
+};
 
-export default Announcement
+export default Announcement;
