@@ -18,7 +18,7 @@ const Home = () => {
       <Newsletter />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

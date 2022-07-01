@@ -16,7 +16,7 @@ const Wrapper = styled.div`
      display: flex;
      align-items: center;
      justify-content: space-between;
-     ${mobile({ padding: "10px 0px" })}
+     ${mobile({ padding: "10px 0px"})}
 `;
 
 const Left = styled.div`
@@ -59,7 +59,7 @@ const Right = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  ${mobile({ flex: 2, justifyContent: "center" })}
+  ${mobile({ flex: 2, justifyContent: "center",float: "none" })}
 `;
 
 const MenuItem = styled.div`
