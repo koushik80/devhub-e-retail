@@ -1,4 +1,4 @@
-# Hi there👋! Here goes below my Project information
+# Hi there👋! Here goes below Project information
 
 <div align="center"><a href="########">devHuß_e-retail</a></div>
 <h1 align="center">Underdevelopment</h1>
