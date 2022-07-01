@@ -4,7 +4,7 @@ import logo from './logo.png';
 import '../App.css';
 import { Search, ShoppingCartOutlined } from '@material-ui/icons';
 import { Badge } from "@material-ui/core";
-import { mobile } from "../responsive";
+import { mobile } from '../responsive';
 
 const Container = styled.div`
      height: 60px;
