@@ -20,6 +20,7 @@ const Wrapper = styled.div`
   width: 25%;
   padding: 20px;
   background-color: white;
+   border-radius: 5px;
   ${mobile({ width: "75%" })}
 `;
 
